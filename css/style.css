@@ -1,0 +1,117 @@
+* {
+	box-sizing: border-box;
+	transition: all .4s ease-in; /* плавный переход */
+}
+
+
+html,body {
+	height: 100%
+}
+body {
+	margin: 0px;
+	border: 20px solid #2B81AC;
+	background:#3399CC;
+	color: #fff;
+	font: 20px “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
+}
+header{
+	width: 65%;
+	margin: 0 auto;
+}
+main {
+
+	width: 70%;
+	margin: 0 auto;
+}
+footer {
+	text-align: center;
+	width: 72%;
+	margin: 55px;
+
+}
+ul:hover li {
+	opacity: 0.4;
+}
+ul li:hover {
+	opacity: 1;
+}
+.list {
+	display: inline-block;
+	width: 839px;
+	height: 350px;
+	font-size: 0;
+}
+
+.box1{
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	width: 50%;
+	height: 113px;
+	border: 2px solid #fff; 
+}
+
+.box2{
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	width: 25%;
+	height: 113px;
+	border: 2px solid #fff; 
+	}
+.box3{
+	font-size: 20px;
+	display: inline-block;
+	text-align: center;
+	width: 100%;
+	height: 113px;
+	border: 2px solid #fff; 
+	}
+.box1 li:focus,
+.box1 li:hover {
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+.box2 li:focus,
+.box2 li:hover {
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+.box3 li:focus,
+.box3 li:hover {
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+}
+.color2{
+	background: #33CCCC;
+}
+.color3{
+	background: #996699;
+}
+.color4{
+	background: #C24747;
+}
+.color5{
+	background: #E2674A;
+}
+.color6{
+	background: #FFCC66;
+}
+.color7{
+	background: #99CC99;
+}
+.color8{
+	background: #669999;
+}
+.color9{
+	background: #CC6699;
+}
+.color10{
+	background: #339966;
+}
+.color11{
+	background: #666699;
+}
+.wi{
+	font-size: 30px;
+}
