@@ -5,27 +5,19 @@
 
 
 html,body {
-	height: 100%
+	text-align: center;
+	width: 85%;
+	margin-left: auto;
+	margin-right: auto;
 }
 body {
-	margin: 0px;
 	border: 20px solid #2B81AC;
 	background:#3399CC;
 	color: #fff;
 	font: 20px “Lucida Sans Unicode”, “Lucida Grande”, sans-serif;
 }
-header{
-	width: 65%;
-	margin: 0 auto;
-}
-main {
 
-	width: 70%;
-	margin: 0 auto;
-}
 footer {
-	text-align: center;
-	width: 72%;
 	margin: 55px;
 
 }
@@ -37,8 +29,8 @@ ul li:hover {
 }
 .list {
 	display: inline-block;
-	width: 839px;
-	height: 350px;
+	/* width: 839px; */
+	/* height: 350px; */
 	font-size: 0;
 }
 
@@ -68,17 +60,12 @@ ul li:hover {
 	border: 2px solid #fff; 
 	}
 .box1 li:focus,
-.box1 li:hover {
-	border-top: 2px solid #fff;
-	border-bottom: 2px solid #fff;
-}
+.box1 li:hover,
 .box2 li:focus,
-.box2 li:hover {
-	border-top: 2px solid #fff;
-	border-bottom: 2px solid #fff;
-}
+.box2 li:hover,
 .box3 li:focus,
-.box3 li:hover {
+.box3 li:hover
+ {
 	border-top: 2px solid #fff;
 	border-bottom: 2px solid #fff;
 }
